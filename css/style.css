@@ -65,6 +65,11 @@ p {
     .container {
       width: 1170px;
     }
+  }
+@media (min-width: 1920px) {
+    .container {
+      width: 1900px;
+    }
 }
 
 /* HEADER */
