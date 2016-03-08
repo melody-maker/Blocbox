@@ -20,6 +20,8 @@
                          el = this,
                          settings = $.fn.dropit.settings;
 
+                    
+
                     // Hide initial submenus
                     $el.addClass('dropit')
                     .find('>'+ settings.triggerParentEl +':has('+ settings.submenuEl +')').addClass('dropit-trigger')
@@ -95,3 +97,4 @@
     $.fn.dropit.settings = {};
 
 })(jQuery);
+
