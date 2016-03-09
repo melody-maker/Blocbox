@@ -28,7 +28,7 @@
     margin: 20px 0 0;
 }
 
-.dropit-inverse.dropit .dropit-submenu menunew {
+.dropit-inverse.dropit .dropit-submenu {
     position: absolute;
     top: -140px;
     right: 0; /* dropdown left or right */
@@ -46,7 +46,7 @@
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
 }
-.dropit-inverse.dropit .dropit-open .dropit-submenu menunew { 
+.dropit-inverse.dropit .dropit-open .dropit-submenu { 
     display: block;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
@@ -64,7 +64,7 @@
   top: -8px;
   right: 10px;
  }
- .dropit-inverse.dropit .dropit-open .dropit-submenu menunew:after {
+ .dropit-inverse.dropit .dropit-open .dropit-submenu:after {
     content: " ";
     position: absolute;
     border-style: solid;

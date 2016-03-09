@@ -42,11 +42,21 @@ p {
    min-height: 1px;
    margin:0 2% 20px;
  }
+ @media (min-width: 460px) {
+    .container {
+        width: 450px;
+        }
+          .container-hero img {
+        width: 20%;
+        }
+ }
+  
  @media (min-width: 768px) {
     .container {
         width: 750px;
         }
-      }
+
+ }
  @media (min-width: 992px) {
     .container {
       width: 970px;
