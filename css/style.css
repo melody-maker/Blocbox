@@ -40,20 +40,42 @@ p {
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0 2% 2;
+ }
+  @media (min-width: 260px) {
+    .container {
+        width: 240px;
+        }
+    .one-half {
+      width: 46%;
+    }
+
+
  }
  @media (min-width: 460px) {
     .container {
-        width: 450px;
+        width: 445px;
+ 
+         
         }
+    .one-half {
+      width: 46%;
+    }
 
  }
-  
  @media (min-width: 768px) {
     .container {
         width: 750px;
         }
-
+    .one-half {
+      width: 46%;
+    }
+    .one-third {
+      width: 29.33333%;
+    }
+    .one-fourth {
+      width: 21%;
+    }
  }
  @media (min-width: 992px) {
     .container {
@@ -616,6 +638,7 @@ p {
      float:left;
      display:block;
    }
+
              .hero img {
         width: 34%;
         }
