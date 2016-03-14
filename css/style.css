@@ -40,7 +40,7 @@ p {
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 2;
+   margin:0 2% 0;
  }
   @media (min-width: 260px) {
     .container {
